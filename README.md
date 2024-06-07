@@ -1,36 +1,36 @@
-\# JoinerXML
+# JoinerXML
 
-\- Script in node to join all XML files from folders.
+- Script in node to join all XML files from folders.
 
-\## Appendix
+## Appendix
 
 made with nodejs, and fs, path, xml2js, xlsx
 
-\## How to us it
+## How to us it
 
 To generate a unique XML file from unique folder container
 
-\`\`\`bash  
+```bash  
  node merge_xml_files.js  
-\`\`\`
+```
 
 To generate a unique XML file from differents folders container
 
-\`\`\`bash  
+```bash  
  node merge_xml_folder_and_files.js  
-\`\`\`
+```
 
 To generate a converted XLS file from the XML file
 
-\`\`\`bash  
+```bash  
  node xmltoexcel.js  
-\`\`\`  
-\## Authors
+```  
+## Authors
 
-\- \[@pbadilla\](https://www.github.com/pbadilla)
+- [@pbadilla](https://www.github.com/pbadilla)
 
-\## Badges
+## Badges
 
-Add badges from somewhere like: \[shields.io\](https://shields.io/)
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-\[!\[MIT License\](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
